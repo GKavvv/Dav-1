@@ -5,41 +5,38 @@
 
     <Button
         android:id="@+id/okaybtn"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginEnd="150dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="139dp"
-        android:text="okay" />
+        android:text="okay"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        />
 
     <Button
         android:id="@+id/nextbtn"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginEnd="150dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="89dp"
-        android:text="Next" />
+        android:text="Next"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="472dp"
-        android:text="Hello, name"
-        android:textSize="30dp"
-        android:textColor="@color/black"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="460dp"
+        android:text="Hello, Name"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
 
     <EditText
         android:id="@+id/nameinput"
@@ -48,12 +45,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="107dp"
-        android:layout_marginEnd="93dp"
-        android:layout_marginBottom="343dp"
+        android:layout_marginBottom="400dp"
         android:ems="10"
-        android:inputType="text"
-        android:hint="Enter Name Here" />
+        android:hint="Enter Name Here"
+        android:inputType="text" />
 
 
 </RelativeLayout>

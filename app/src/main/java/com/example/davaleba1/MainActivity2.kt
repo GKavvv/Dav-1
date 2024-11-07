@@ -25,7 +25,7 @@ class MainActivity2 : ComponentActivity() {
         var number = 0
         clickbutton.setOnClickListener{
             number++
-            scoretext.text = "Score: $number"
+            scoretext.text = "$number"
 
         }
 } }
